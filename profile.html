@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Account Menu</title>
+
+  <!-- Font Awesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: whitesmoke;
+      margin: 0;
+      padding: 40px;
+    }
+
+    ol {
+      list-style: none;
+      padding: 0;
+      max-width: 300px;
+      margin: auto;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px gray;
+    }
+
+    li {
+      padding: 15px 20px;
+      border-bottom: 1px solid lightgray;
+      font-size: 18px;
+      color: black;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+
+    li:last-child {
+      border-bottom: none;
+    }
+
+    li:hover {
+      background-color: lightgray;
+    }
+
+    .icon {
+      margin-right: 10px;
+      color: darkslategray;
+    }
+
+    .wishlist-icon {
+      color: red;
+    }
+    ol{
+        background-color: thistle;
+    }
+  </style>
+</head>
+<body>
+  <ol>
+    <li><i class="fa-solid fa-user icon"></i>MyProfile</li>
+    <li><i class="fa-solid fa-box icon"></i>Orders</li>
+    <li><i class="fa-solid fa-heart icon wishlist-icon"></i>Wishlist</li>
+    <li><i class="fa-solid fa-gift icon"></i>Giftcards</li>
+    <li><i class="fa-solid fa-location-dot icon"></i>Address</li>
+
+  </ol>
+</body>
+</html>

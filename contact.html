@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <style>
+    body 
+    {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 50px;
+      background-image: url('https://s3.envato.com/files/c6ee66e7-921c-4b08-93c7-784d17f00f5e/inline_image_preview.jpg');
+    }
+    .contact-form 
+    {
+      background: white;
+      padding: 30px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    .contact-form h2 
+    {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .contact-form input, 
+    .contact-form textarea 
+    {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: none;
+    }
+    .contact-form input[type="submit"] 
+    {
+      background: #28a745;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .contact-form input[type="submit"]:hover
+     {
+      background: #218838;
+    }
+    .contact-form
+    {
+        height: max-content;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 57px;
+        border-radius: 50px;
+        background-color: aquamarine;
+    }
+  </style>
+</head>
+<body>
+    
+  <div class="contact-form">
+    <h2>Contact Us</h2>
+    <form>
+      <label>Name:</label>
+      <input type="text" name="name" required>
+
+      <label>Email:</label>
+      <input type="email" name="email" required>
+
+      <label>Message:</label>
+      <textarea name="message" rows="5" required></textarea>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </div>
+
+</body>
+</html>
